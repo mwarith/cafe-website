@@ -1,0 +1,12 @@
+cd Desktop
+cd "cafe website"
+dir
+fly_env\Scripts\activate
+.venv\Scripts\activate
+
+npm i
+
+
+pip install django-cors-headers
+pip install -r requirements.txt
+python manage.py runserver
